@@ -40,9 +40,3 @@ dependencyManagement {
 		mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
 	}
 }
-
-task hello {
-	doLast {
-		println 'Hello'
-	}
-}
